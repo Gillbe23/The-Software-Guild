@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+<title>Contact Us</title>
+</head>
+<body>
+<div id="title">
+<h1> <div align= "center"> Northern Nile Cafe </div> </h1>
+<hr />
+<div id="navigation">
+<p>
+<a href="RestaurantHome.html"target="_blank">Home</a>
+<a href="ContactUs.html"target="_blank">Contact us</a>
+<a href="Menu.html"target="_blank">Menu</a>
+</p>
+</div>
+<hr />
+<div align= "center">
+		<form action="submit.htnml" method="POST">
+			<label for="name"><strong>Name:</strong></label>
+			<input type="text" id="name" name="name"><br />
+			<br />
+			<label for="email"><strong>Email:</strong></label>
+			<input type="text" id="email" name="email"><br />
+			<br />
+			<label for="phone"><strong>Phone:</strong></label>
+			<input type="text"id="phone" name="phone"><br />
+			<br />
+			<label for="contact"><strong>Reason for Inquiry:</strong></label>
+			<select id="contact" name="contact">
+				<option value="catering" selected> Catering</option>
+				<option value="private">Private Party</option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+			</select>
+			<br /><br />
+			<label for="info"><strong> Additional Information:</strong> </label>
+			<textarea id="info"></textarea><br /><br />
+			
+			<legend><strong>Have you been to the restaurant?</strong> <input type="radio" id="choice2" name="questionnaire" value="no">
+			<label for="choice2">No</label>
+			<input type="radio" id="choice1" name="questionnaire" value="yes">
+			<label for="choice1">Yes</label></legend> 
+			<br />
+			<legend> <strong>Best days to contact you:</strong></legend><br/>
+			<input type="checkbox" id="mon" name="interest" value="mon">
+			<label for="mon">M</label>
+			<input type="checkbox" id="tue" name="interest" value="tue">
+			<label for="tue">T</label>
+			<input type="checkbox" id="wed" name="interest" value="wed">
+			<label for="wed">W</label>
+			<input type="checkbox" id="thu" name="interest" value="thu">
+			<label for="thu">TH</label>
+			<input type="checkbox" id="fri" name="interest" value="fri">
+			<label for="fri">F</label>
+			<br /> <br />
+			<input type="submit" name="Send Request" value="Send Request">
+			</div>
+			</form>
+			<hr />
+	<footer>
+ <p> <div align= "center"> 6532 14th ave S, Bloomington, MN, 55426 </div> </p>
+ <p> <div align= "center"> (612123-4567 </div></p>
+</footer>
+</div>		
+</body>
+<html>
